@@ -1,0 +1,19 @@
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+section{
+    text-align: center;
+    margin-top: 270px;
+}
+::placeholder{
+    text-align: center ;
+}
+body{
+    background-image: url(https://institutodepsiquiatriapr.com.br/wp-content/uploads/2020/03/glenn-carstens-peters-RLw-UC03Gwc-unsplash-1024x681.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.botao{
+    border-color: black;
+}
