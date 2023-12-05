@@ -17,3 +17,11 @@ body{
 .botao{
     border-color: black;
 }
+li{
+    display: grid;
+    margin:  10px;
+    color: red;
+}
+button{
+    background-color: green;
+}

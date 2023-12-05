@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTAS DE TAREFA</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>   
     <section>
         </div>   
         <h2>Tarefas Pendentes</h2>
-        <ul id="tarefas">
+        <ol class="centro" id="tarefas" onclick="feitas()">
 
-        </ul>
+        </ol>
          <input class="insira" type="text" placeholder="insira uma tarefa..." id="task">
-         <button class="botao" id="adicionar" onclick="clq">Adicionar</button>
+         <button class="botao" id="adicionar" onclick="clq()" style="background-color: white ;">Adicionar</button>
         <div>
         <h2>Tarefas finalizadas</h2>
-        <ul id="finalizadas">
+        <ol id="finalizadas">
 
-        </ul>
+        </ol>
         </div>
     </section>
  
