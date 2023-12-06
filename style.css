@@ -18,10 +18,10 @@ body{
     border-color: black;
 }
 li{
-    display: grid;
+    display: block;
     margin:  10px;
     color: red;
 }
-button{
+.BTfinalizar{
     background-color: green;
 }
